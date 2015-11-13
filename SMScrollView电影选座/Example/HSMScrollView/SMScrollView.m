@@ -262,22 +262,6 @@
     self.scrollViewDelegate = delegate;
 }
 
-//- (void)drawRect:(CGRect)rect {
-//    self.rowIndexView = [[KyoRowIndexView alloc] init];
-//    self.rowIndexView.backgroundColor = [UIColor redColor];
-//        [self addSubview:self.rowIndexView];
-//    
-//    
-//    self.rowIndexView.row = 20;
-//    self.rowIndexView.width = 16.0;
-//    self.rowIndexView.rowIndexViewColor = [UIColor redColor];
-//    self.rowIndexView.frame = CGRectMake(10, 100, 20, 20);
-//    //self.rowIndexView.rowIndexType = self.rowIndexType;
-//    //self.rowIndexView.arrayRowIndex = self.arrayRowIndex;
-//    self.rowIndexView.hidden = NO;
-//
-//}
-
 @end
 // 版权属于原作者
 // http://code4app.com (cn) http://code4app.net (en)
