@@ -54,7 +54,7 @@
     self.stickToBounds = NO;
     self.centerZoomingView = YES;
     self.isFirstLogin = YES;
-    self.minimumZoomScale = 1.0;
+    self.minimumZoomScale = 1.0; //座位默认放缩大小
 
     // Add double-tap-gesture-recognizer to zoom in and out when user double taps.
     self.doubleTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(_doubleTapped:)];
