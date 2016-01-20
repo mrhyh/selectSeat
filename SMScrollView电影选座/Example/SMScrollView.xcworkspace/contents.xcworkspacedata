@@ -54,6 +54,6 @@
       </Group>
    </Group>
    <FileRef
-      location = "group:SMScrollView.xcodeproj">
+      location = "group:/Users/hyh/GitHub/selectSeat/SMScrollView&#x7535;&#x5f71;&#x9009;&#x5ea7;/Example/selectSeat.xcodeproj">
    </FileRef>
 </Workspace>

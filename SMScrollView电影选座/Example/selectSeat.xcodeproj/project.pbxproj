@@ -25,8 +25,6 @@
 		FA86905818FE878B00AE3E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86904018FE878B00AE3E7C /* UIKit.framework */; };
 		FA86906018FE878B00AE3E7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA86905E18FE878B00AE3E7C /* InfoPlist.strings */; };
 		FA86906218FE878B00AE3E7C /* SMScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA86906118FE878B00AE3E7C /* SMScrollViewTests.m */; };
-		FA86907518FE87F000AE3E7C /* word-map.png in Resources */ = {isa = PBXBuildFile; fileRef = FA86907318FE87F000AE3E7C /* word-map.png */; };
-		FA86907618FE87F000AE3E7C /* word-map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FA86907418FE87F000AE3E7C /* word-map@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,24 +51,22 @@
 		826D8E7B1BE1C8DE00F796A2 /* SMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMScrollView.m; sourceTree = "<group>"; };
 		A970B05B348205DF33A2A850 /* libPods-SMScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SMScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0E57A58F5671A1989E56F4E /* Pods-SMScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SMScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SMScrollView/Pods-SMScrollView.debug.xcconfig"; sourceTree = "<group>"; };
-		FA86903918FE878B00AE3E7C /* SMScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86903918FE878B00AE3E7C /* selectSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selectSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA86903C18FE878B00AE3E7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA86903E18FE878B00AE3E7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		FA86904018FE878B00AE3E7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		FA86904418FE878B00AE3E7C /* SMScrollView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMScrollView-Info.plist"; sourceTree = "<group>"; };
+		FA86904418FE878B00AE3E7C /* selectSeat-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "selectSeat-Info.plist"; sourceTree = "<group>"; };
 		FA86904618FE878B00AE3E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA86904818FE878B00AE3E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA86904A18FE878B00AE3E7C /* SMScrollView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMScrollView-Prefix.pch"; sourceTree = "<group>"; };
-		FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
-		FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		FA86904A18FE878B00AE3E7C /* selectSeat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "selectSeat-Prefix.pch"; sourceTree = "<group>"; };
+		FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SMAppDelegate.h; path = ../SMScrollView/SMAppDelegate.h; sourceTree = "<group>"; };
+		FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SMAppDelegate.m; path = ../SMScrollView/SMAppDelegate.m; sourceTree = "<group>"; };
 		FA86904E18FE878B00AE3E7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		FA86905418FE878B00AE3E7C /* SMScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA86905418FE878B00AE3E7C /* selectSeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectSeat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA86905518FE878B00AE3E7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		FA86905D18FE878B00AE3E7C /* SMScrollViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SMScrollViewTests-Info.plist"; sourceTree = "<group>"; };
+		FA86905D18FE878B00AE3E7C /* selectSeatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "selectSeatTests-Info.plist"; sourceTree = "<group>"; };
 		FA86905F18FE878B00AE3E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA86906118FE878B00AE3E7C /* SMScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMScrollViewTests.m; sourceTree = "<group>"; };
-		FA86907318FE87F000AE3E7C /* word-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "word-map.png"; sourceTree = "<group>"; };
-		FA86907418FE87F000AE3E7C /* word-map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "word-map@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +115,8 @@
 		824D3B2E1BE0B3C4006BC792 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */,
+				FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */,
 				824D3B2F1BE0B3C4006BC792 /* SMViewController.h */,
 				824D3B301BE0B3C4006BC792 /* SMViewController.m */,
 			);
@@ -145,7 +143,6 @@
 				824D3B2A1BE0B29C006BC792 /* HSMScrollView */,
 				824D3B2E1BE0B3C4006BC792 /* Main */,
 				FA86904218FE878B00AE3E7C /* SMScrollView */,
-				FA86907118FE87F000AE3E7C /* Resources */,
 				FA86905B18FE878B00AE3E7C /* SMScrollViewTests */,
 				FA86903B18FE878B00AE3E7C /* Frameworks */,
 				FA86903A18FE878B00AE3E7C /* Products */,
@@ -156,8 +153,8 @@
 		FA86903A18FE878B00AE3E7C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA86903918FE878B00AE3E7C /* SMScrollView.app */,
-				FA86905418FE878B00AE3E7C /* SMScrollViewTests.xctest */,
+				FA86903918FE878B00AE3E7C /* selectSeat.app */,
+				FA86905418FE878B00AE3E7C /* selectSeat.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -177,8 +174,6 @@
 		FA86904218FE878B00AE3E7C /* SMScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */,
-				FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */,
 				FA86904E18FE878B00AE3E7C /* Images.xcassets */,
 				FA86904318FE878B00AE3E7C /* Supporting Files */,
 			);
@@ -188,10 +183,10 @@
 		FA86904318FE878B00AE3E7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA86904418FE878B00AE3E7C /* SMScrollView-Info.plist */,
+				FA86904418FE878B00AE3E7C /* selectSeat-Info.plist */,
 				FA86904518FE878B00AE3E7C /* InfoPlist.strings */,
 				FA86904818FE878B00AE3E7C /* main.m */,
-				FA86904A18FE878B00AE3E7C /* SMScrollView-Prefix.pch */,
+				FA86904A18FE878B00AE3E7C /* selectSeat-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -208,35 +203,18 @@
 		FA86905C18FE878B00AE3E7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FA86905D18FE878B00AE3E7C /* SMScrollViewTests-Info.plist */,
+				FA86905D18FE878B00AE3E7C /* selectSeatTests-Info.plist */,
 				FA86905E18FE878B00AE3E7C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FA86907118FE87F000AE3E7C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FA86907218FE87F000AE3E7C /* Images */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		FA86907218FE87F000AE3E7C /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				FA86907318FE87F000AE3E7C /* word-map.png */,
-				FA86907418FE87F000AE3E7C /* word-map@2x.png */,
-			);
-			path = Images;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA86903818FE878B00AE3E7C /* SMScrollView */ = {
+		FA86903818FE878B00AE3E7C /* selectSeat */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA86906518FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "SMScrollView" */;
+			buildConfigurationList = FA86906518FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "selectSeat" */;
 			buildPhases = (
 				E161A88AA8FFC17F9F559261 /* Check Pods Manifest.lock */,
 				FA86903518FE878B00AE3E7C /* Sources */,
@@ -248,14 +226,14 @@
 			);
 			dependencies = (
 			);
-			name = SMScrollView;
+			name = selectSeat;
 			productName = SMScrollView;
-			productReference = FA86903918FE878B00AE3E7C /* SMScrollView.app */;
+			productReference = FA86903918FE878B00AE3E7C /* selectSeat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FA86905318FE878B00AE3E7C /* SMScrollViewTests */ = {
+		FA86905318FE878B00AE3E7C /* selectSeatTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA86906818FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "SMScrollViewTests" */;
+			buildConfigurationList = FA86906818FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "selectSeatTests" */;
 			buildPhases = (
 				FA86905018FE878B00AE3E7C /* Sources */,
 				FA86905118FE878B00AE3E7C /* Frameworks */,
@@ -266,9 +244,9 @@
 			dependencies = (
 				FA86905A18FE878B00AE3E7C /* PBXTargetDependency */,
 			);
-			name = SMScrollViewTests;
+			name = selectSeatTests;
 			productName = SMScrollViewTests;
-			productReference = FA86905418FE878B00AE3E7C /* SMScrollViewTests.xctest */;
+			productReference = FA86905418FE878B00AE3E7C /* selectSeat.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -286,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA86903418FE878B00AE3E7C /* Build configuration list for PBXProject "SMScrollView" */;
+			buildConfigurationList = FA86903418FE878B00AE3E7C /* Build configuration list for PBXProject "selectSeat" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -298,8 +276,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA86903818FE878B00AE3E7C /* SMScrollView */,
-				FA86905318FE878B00AE3E7C /* SMScrollViewTests */,
+				FA86903818FE878B00AE3E7C /* selectSeat */,
+				FA86905318FE878B00AE3E7C /* selectSeatTests */,
 			);
 		};
 /* End PBXProject section */
@@ -309,10 +287,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA86907518FE87F000AE3E7C /* word-map.png in Resources */,
 				FA86904718FE878B00AE3E7C /* InfoPlist.strings in Resources */,
 				FA86904F18FE878B00AE3E7C /* Images.xcassets in Resources */,
-				FA86907618FE87F000AE3E7C /* word-map@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,7 +363,7 @@
 /* Begin PBXTargetDependency section */
 		FA86905A18FE878B00AE3E7C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FA86903818FE878B00AE3E7C /* SMScrollView */;
+			target = FA86903818FE878B00AE3E7C /* selectSeat */;
 			targetProxy = FA86905918FE878B00AE3E7C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -497,11 +473,11 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SMScrollView/SMScrollView-Prefix.pch";
-				INFOPLIST_FILE = "SMScrollView/SMScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "SMScrollView/selectSeat-Prefix.pch";
+				INFOPLIST_FILE = "SMScrollView/selectSeat-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.smnh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = selectSeat;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -518,11 +494,11 @@
 					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SMScrollView/SMScrollView-Prefix.pch";
-				INFOPLIST_FILE = "SMScrollView/SMScrollView-Info.plist";
+				GCC_PREFIX_HEADER = "SMScrollView/selectSeat-Prefix.pch";
+				INFOPLIST_FILE = "SMScrollView/selectSeat-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.smnh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = selectSeat;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -537,14 +513,14 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SMScrollView/SMScrollView-Prefix.pch";
+				GCC_PREFIX_HEADER = "SMScrollView/selectSeat-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SMScrollViewTests/SMScrollViewTests-Info.plist";
+				INFOPLIST_FILE = "SMScrollViewTests/selectSeatTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.smnh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = selectSeat;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -560,10 +536,10 @@
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SMScrollView/SMScrollView-Prefix.pch";
-				INFOPLIST_FILE = "SMScrollViewTests/SMScrollViewTests-Info.plist";
+				GCC_PREFIX_HEADER = "SMScrollView/selectSeat-Prefix.pch";
+				INFOPLIST_FILE = "SMScrollViewTests/selectSeatTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.smnh.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = selectSeat;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -572,7 +548,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA86903418FE878B00AE3E7C /* Build configuration list for PBXProject "SMScrollView" */ = {
+		FA86903418FE878B00AE3E7C /* Build configuration list for PBXProject "selectSeat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA86906318FE878B00AE3E7C /* Debug */,
@@ -581,7 +557,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA86906518FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "SMScrollView" */ = {
+		FA86906518FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "selectSeat" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA86906618FE878B00AE3E7C /* Debug */,
@@ -590,7 +566,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA86906818FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "SMScrollViewTests" */ = {
+		FA86906818FE878B00AE3E7C /* Build configuration list for PBXNativeTarget "selectSeatTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA86906918FE878B00AE3E7C /* Debug */,
