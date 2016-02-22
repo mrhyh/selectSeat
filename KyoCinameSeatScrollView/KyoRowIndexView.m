@@ -21,7 +21,6 @@
 - (void)drawRect:(CGRect)rect {
     [self setupView];
     
-    
     if (self.row > 0) {
         CGContextRef context = UIGraphicsGetCurrentContext();
         CGContextTranslateCTM(context, 0.0f , self.bounds.size.height);

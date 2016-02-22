@@ -102,8 +102,7 @@
     }
     
     self.myScrollView = [[SMScrollView alloc] init];
-    _myScrollView.contentSize = CGSizeMake((self.seatLeft + self.column * self.seatSize.width + self.seatRight) * _myScrollView.zoomScale,
-                                      (self.seatTop + self.row * self.seatSize.height + self.seatBottom) * _myScrollView.zoomScale);
+    _myScrollView.contentSize = CGSizeMake((self.seatLeft + self.column * self.seatSize.width + self.seatRight) * _myScrollView.zoomScale,(self.seatTop + self.row * self.seatSize.height + self.seatBottom) * _myScrollView.zoomScale);
     
     NSLog(@"_myScrollView.contentSize = %@",NSStringFromCGRect(_myScrollView.frame));
     NSLog(@"_myScrollView.zoomScale = %f",_myScrollView.zoomScale);
@@ -359,6 +358,3 @@
 }
 
 @end
-// 版权属于原作者
-// http://code4app.com (cn) http://code4app.net (en)
-// 发布代码于最专业的源码分享网站: Code4App.com

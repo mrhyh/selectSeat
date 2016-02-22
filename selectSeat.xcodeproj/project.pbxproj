@@ -54,8 +54,8 @@
 		FA86904618FE878B00AE3E7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA86904818FE878B00AE3E7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FA86904A18FE878B00AE3E7C /* selectSeat-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "selectSeat-Prefix.pch"; sourceTree = "<group>"; };
-		FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SMAppDelegate.h; path = ../SMScrollView/SMAppDelegate.h; sourceTree = "<group>"; };
-		FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SMAppDelegate.m; path = ../SMScrollView/SMAppDelegate.m; sourceTree = "<group>"; };
+		FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SMAppDelegate.h; path = SMScrollView/SMAppDelegate.h; sourceTree = "<group>"; };
+		FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SMAppDelegate.m; path = SMScrollView/SMAppDelegate.m; sourceTree = "<group>"; };
 		FA86904E18FE878B00AE3E7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FA86905418FE878B00AE3E7C /* selectSeat.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = selectSeat.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA86905D18FE878B00AE3E7C /* selectSeatTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "selectSeatTests-Info.plist"; sourceTree = "<group>"; };
@@ -98,8 +98,6 @@
 		824D3B2E1BE0B3C4006BC792 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */,
-				FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */,
 				824D3B2F1BE0B3C4006BC792 /* SMViewController.h */,
 				824D3B301BE0B3C4006BC792 /* SMViewController.m */,
 			);
@@ -122,10 +120,12 @@
 		FA86903018FE878B00AE3E7C = {
 			isa = PBXGroup;
 			children = (
+				FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */,
+				FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */,
 				8267DCF31BDFA2A600B0721D /* KyoCinameSeatScrollView */,
 				824D3B2A1BE0B29C006BC792 /* HSMScrollView */,
 				824D3B2E1BE0B3C4006BC792 /* Main */,
-				FA86904218FE878B00AE3E7C /* selectSeat */,
+				FA86904318FE878B00AE3E7C /* Supporting Files */,
 				FA86905B18FE878B00AE3E7C /* SMScrollViewTests */,
 				FA86903B18FE878B00AE3E7C /* Frameworks */,
 				FA86903A18FE878B00AE3E7C /* Products */,
@@ -151,25 +151,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		FA86904218FE878B00AE3E7C /* selectSeat */ = {
-			isa = PBXGroup;
-			children = (
-				FA86904E18FE878B00AE3E7C /* Images.xcassets */,
-				FA86904318FE878B00AE3E7C /* Supporting Files */,
-			);
-			name = selectSeat;
-			path = SMScrollView;
-			sourceTree = "<group>";
-		};
 		FA86904318FE878B00AE3E7C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA86904E18FE878B00AE3E7C /* Images.xcassets */,
 				FA86904418FE878B00AE3E7C /* selectSeat-Info.plist */,
 				FA86904518FE878B00AE3E7C /* InfoPlist.strings */,
 				FA86904818FE878B00AE3E7C /* main.m */,
 				FA86904A18FE878B00AE3E7C /* selectSeat-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			path = SMScrollView;
 			sourceTree = "<group>";
 		};
 		FA86905B18FE878B00AE3E7C /* SMScrollViewTests */ = {
