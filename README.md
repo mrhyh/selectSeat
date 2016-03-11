@@ -7,7 +7,7 @@ Now listed below, the hope can and everybody progresses together!
   About film to choose a key part of the code, I forget to the original, I'm sorry, but thanks to the Internet.
 
 <br>
-<img height="700" src="https://github.com/mrhyh/selectSeat/blob/master/movieSeatSelect.gif” />
+<img height="700" src="https://github.com/mrhyh/selectSeat/blob/master/movieSeatSelect.gif" />
 <br>
 _________________________________________________
   这是一个关于电影选座的demo，参考了很多网友的代码，非常感谢你们。现在列举如下，希望能和大家一起进步！
