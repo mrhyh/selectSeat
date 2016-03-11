@@ -10,6 +10,7 @@ _________________________________________________
 http://code4app.com/ios/SMScrollView/54f120e6933bf0ea278b59fe 参考了scrollView的放缩。
 
   里面关于电影选座的关键部分代码，我忘记出处了，真抱歉，但是真的感谢那位网友！
+  模拟器截图，有些粗糙，请见谅哈！
 <br>
 <img height="700" src="https://github.com/mrhyh/selectSeat/blob/master/movieSeatSelect.gif" />
 <br>
