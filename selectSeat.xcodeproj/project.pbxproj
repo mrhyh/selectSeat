@@ -11,7 +11,7 @@
 		8267DCFA1BDFA2A700B0721D /* KyoCenterLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8267DCF51BDFA2A700B0721D /* KyoCenterLineView.m */; };
 		8267DCFB1BDFA2A700B0721D /* KyoCinameSeatScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8267DCF71BDFA2A700B0721D /* KyoCinameSeatScrollView.m */; };
 		8267DCFC1BDFA2A700B0721D /* KyoRowIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8267DCF91BDFA2A700B0721D /* KyoRowIndexView.m */; };
-		826D8E7C1BE1C8DE00F796A2 /* SMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 826D8E7B1BE1C8DE00F796A2 /* SMScrollView.m */; };
+		EB4C8E311D62D5C00070E559 /* SMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4C8E301D62D5C00070E559 /* SMScrollView.m */; };
 		FA86903D18FE878B00AE3E7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86903C18FE878B00AE3E7C /* Foundation.framework */; };
 		FA86903F18FE878B00AE3E7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86903E18FE878B00AE3E7C /* CoreGraphics.framework */; };
 		FA86904118FE878B00AE3E7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA86904018FE878B00AE3E7C /* UIKit.framework */; };
@@ -44,8 +44,8 @@
 		8267DCF71BDFA2A700B0721D /* KyoCinameSeatScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KyoCinameSeatScrollView.m; sourceTree = "<group>"; };
 		8267DCF81BDFA2A700B0721D /* KyoRowIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KyoRowIndexView.h; sourceTree = "<group>"; };
 		8267DCF91BDFA2A700B0721D /* KyoRowIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KyoRowIndexView.m; sourceTree = "<group>"; };
-		826D8E7A1BE1C8DE00F796A2 /* SMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMScrollView.h; sourceTree = "<group>"; };
-		826D8E7B1BE1C8DE00F796A2 /* SMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMScrollView.m; sourceTree = "<group>"; };
+		EB4C8E2F1D62D5C00070E559 /* SMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMScrollView.h; sourceTree = "<group>"; };
+		EB4C8E301D62D5C00070E559 /* SMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMScrollView.m; sourceTree = "<group>"; };
 		FA86903918FE878B00AE3E7C /* selectSeat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = selectSeat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA86903C18FE878B00AE3E7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA86903E18FE878B00AE3E7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -86,15 +86,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		824D3B2A1BE0B29C006BC792 /* HSMScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				826D8E7A1BE1C8DE00F796A2 /* SMScrollView.h */,
-				826D8E7B1BE1C8DE00F796A2 /* SMScrollView.m */,
-			);
-			path = HSMScrollView;
-			sourceTree = "<group>";
-		};
 		824D3B2E1BE0B3C4006BC792 /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,10 +108,19 @@
 			path = KyoCinameSeatScrollView;
 			sourceTree = "<group>";
 		};
+		EB4C8E2E1D62D5C00070E559 /* SESScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				EB4C8E2F1D62D5C00070E559 /* SMScrollView.h */,
+				EB4C8E301D62D5C00070E559 /* SMScrollView.m */,
+			);
+			path = SESScrollView;
+			sourceTree = "<group>";
+		};
 		FA86903018FE878B00AE3E7C = {
 			isa = PBXGroup;
 			children = (
-				824D3B2A1BE0B29C006BC792 /* HSMScrollView */,
+				EB4C8E2E1D62D5C00070E559 /* SESScrollView */,
 				8267DCF31BDFA2A600B0721D /* KyoCinameSeatScrollView */,
 				FA86904B18FE878B00AE3E7C /* SMAppDelegate.h */,
 				FA86904C18FE878B00AE3E7C /* SMAppDelegate.m */,
@@ -280,7 +280,7 @@
 			files = (
 				8267DCFB1BDFA2A700B0721D /* KyoCinameSeatScrollView.m in Sources */,
 				FA86904D18FE878B00AE3E7C /* SMAppDelegate.m in Sources */,
-				826D8E7C1BE1C8DE00F796A2 /* SMScrollView.m in Sources */,
+				EB4C8E311D62D5C00070E559 /* SMScrollView.m in Sources */,
 				8267DCFA1BDFA2A700B0721D /* KyoCenterLineView.m in Sources */,
 				824D3B311BE0B3C4006BC792 /* SMViewController.m in Sources */,
 				8267DCFC1BDFA2A700B0721D /* KyoRowIndexView.m in Sources */,
@@ -413,7 +413,7 @@
 				GCC_PREFIX_HEADER = "SMScrollView/selectSeat-Prefix.pch";
 				INFOPLIST_FILE = "SMScrollView/selectSeat-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smnh.selectSeat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylgwhyh.selectSeat;
 				PRODUCT_NAME = selectSeat;
 				WRAPPER_EXTENSION = app;
 			};
@@ -433,7 +433,7 @@
 				GCC_PREFIX_HEADER = "SMScrollView/selectSeat-Prefix.pch";
 				INFOPLIST_FILE = "SMScrollView/selectSeat-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.smnh.selectSeat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ylgwhyh.selectSeat;
 				PRODUCT_NAME = selectSeat;
 				WRAPPER_EXTENSION = app;
 			};
