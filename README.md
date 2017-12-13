@@ -7,7 +7,7 @@ Now listed below, the hope can and everybody progresses together!
   About film to choose a key part of the code, I forget to the original, I'm sorry, but thanks to the Internet.
 _________________________________________________
   这是一个关于电影选座的demo，参考了很多网友的代码，非常感谢你们。现在列举如下，希望能和大家一起进步！
-http://code4app.com/ios/SMScrollView/54f120e6933bf0ea278b59fe 参考了scrollView的放缩。
+https://github.com/smnh/SMScrollView 参考了scrollView的放缩。
 
   里面关于电影选座的部分代码，我忘记出处了，真抱歉，但是真的感谢那位网友！
   模拟器截图，有些粗糙，请见谅哈！
